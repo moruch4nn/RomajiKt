@@ -17,7 +17,3 @@ object RomajiConversion {
         return result
     }
 }
-
-fun main() {
-    println(RomajiConversion.romajiToKana("atonannkakattenikutoutennhairuna", false))
-}
