@@ -1,3 +1,5 @@
+package dev.mr3n.romajikt
+
 object RomajiTable {
     val romajiToKanaMapping = mutableListOf(
         // あ行

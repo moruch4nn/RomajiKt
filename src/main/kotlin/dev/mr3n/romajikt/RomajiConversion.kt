@@ -1,3 +1,5 @@
+package dev.mr3n.romajikt
+
 object RomajiConversion {
     private val repeatConsonantRegex = Regex("([bcdfghjklmpqrstvwxyz])\\1+")
 
