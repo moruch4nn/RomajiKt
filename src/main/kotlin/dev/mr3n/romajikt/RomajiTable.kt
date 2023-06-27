@@ -23,15 +23,21 @@ object RomajiTable {
         "va" to "ゔぁ",
         "vi" to "ゔぃ",
         "vu" to "ゔ",
+        "vyu" to "ゔゅ",
         "ve" to "ゔぇ",
         "vo" to "ゔぉ",
 
+        "ye" to "いぇ",
+
         // か行
-        "ka" to "か",
+        "ka" to "か", "ca" to "か",
         "ki" to "き",
-        "ku" to "く",
+        "ku" to "く", "cu" to "く",
         "ke" to "け",
-        "ko" to "こ",
+        "ko" to "こ", "co" to "こ",
+
+        "xka" to "ヵ",
+        "xke" to "ヶ",
 
         "ga" to "が",
         "gi" to "ぎ",
@@ -51,11 +57,18 @@ object RomajiTable {
         "gye" to "ぎぇ",
         "gyo" to "ぎょ",
 
+        "qa" to "くぁ", "kwa" to "くぁ",
+        "qi" to "くぃ", "kwi" to "くぃ",
+        "qe" to "くぇ", "kwe" to "くぇ",
+        "qo" to "くぉ", "kwo" to "くぉ",
+
+        "gwa" to "ぐぁ",
+
         // さ行
         "sa" to "さ",
-        "si" to "し", "shi" to "し",
+        "si" to "し", "shi" to "し", "ci" to "し",
         "su" to "す",
-        "se" to "せ",
+        "se" to "せ", "ce" to "せ",
         "so" to "そ",
 
         "za" to "ざ",
@@ -82,6 +95,7 @@ object RomajiTable {
         "tu" to "つ", "tsu" to "つ",
         "te" to "て",
         "to" to "と",
+        "ltu" to "っ", "xtu" to "っ", "xtsu" to "っ",
 
         "da" to "だ",
         "di" to "ぢ",
@@ -89,17 +103,26 @@ object RomajiTable {
         "de" to "で",
         "do" to "ど",
 
-        "tya" to "ちゃ", "cha" to "ちゃ",
+        "tya" to "ちゃ", "cha" to "ちゃ", "cya" to "ちゃ",
         "tyi" to "ちぃ",
-        "tyu" to "ちゅ", "chu" to "ちゅ",
+        "tyu" to "ちゅ", "chu" to "ちゅ", "cyu" to "ちゅ",
         "tye" to "ちぇ", "che" to "ちぇ",
-        "tyo" to "ちょ", "cho" to "ちょ",
+        "tyo" to "ちょ", "cho" to "ちょ", "cyo" to "ちょ",
 
         "twa" to "とぁ",
         "twi" to "とぃ",
         "twu" to "とぅ",
         "twe" to "とぇ",
         "two" to "とぉ",
+
+        "tsa" to "つぁ",
+        "tse" to "つぇ",
+        "tso" to "つぉ",
+
+        "thi" to "てぃ",
+
+        "thu" to "てゅ",
+
 
         "dya" to "ぢゃ",
         "dyi" to "ぢぃ",
@@ -159,7 +182,7 @@ object RomajiTable {
 
         "fa" to "ふぁ", "hwa" to "ふぁ",
         "fi" to "ふぃ", "hwi" to "ふぃ",
-        "fyu" to "ふゅ",
+        "fyu" to "ふゅ", "hwyu" to "ふゅ",
         "fe" to "ふぇ", "hwe" to "ふぇ",
         "fo" to "ふぉ", "hwo" to "ふぉ",
 
@@ -212,7 +235,8 @@ object RomajiTable {
 
         "wa" to "わ",
         "wo" to "を",
-        "nn" to "ん",
+
+        "xwa" to "ゎ",
 
         "0" to "０",
         "1" to "１",

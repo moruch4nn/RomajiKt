@@ -13,11 +13,7 @@ object RomajiConversion {
             result = result.replaceFirst(value, value.replace(value, "${"っ".repeat(value.length-1)}${value.last()}"))
         }
         RomajiTable.romajiToKanaMapping.forEach { (old, new) -> result = result.replace(old, new) }
-        result = result.replace("n", "ん")
+        result = result.replace("nn", "ん").replace("n", "ん")
         return result
     }
-}
-
-fun main() {
-    println(RomajiConversion.romajiToKana("NPC CREATE komandodeNPCtukurerukaraiikannjinotokoronioiteittoite", false))
 }
