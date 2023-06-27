@@ -79,7 +79,7 @@ object RomajiTable {
         // た行
         "ta" to "た",
         "ti" to "ち", "chi" to "ち",
-        "tu" to "tu", "tsu" to "つ",
+        "tu" to "つ", "tsu" to "つ",
         "te" to "て",
         "to" to "と",
 

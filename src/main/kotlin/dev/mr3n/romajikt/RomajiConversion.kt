@@ -17,3 +17,7 @@ object RomajiConversion {
         return result
     }
 }
+
+fun main() {
+    println(RomajiConversion.romajiToKana("NPC CREATE komandodeNPCtukurerukaraiikannjinotokoronioiteittoite", false))
+}
