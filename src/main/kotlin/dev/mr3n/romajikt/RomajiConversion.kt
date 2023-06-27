@@ -9,11 +9,15 @@ object RomajiConversion {
     fun romajiToKana(romaji: String, ignoreCase: Boolean): String {
         var result = if(ignoreCase) romaji.lowercase() else romaji
         repeatConsonantRegex.findAll(result).forEach { matchResult ->
-            val value = matchResult.value.dropLast(1)
-            result = result.replaceFirst(value, value.replace(value, "っ".repeat(value.length)))
+            val value = matchResult.value
+            result = result.replaceFirst(value, value.replace(value, "${"っ".repeat(value.length-1)}${value.last()}"))
         }
         RomajiTable.romajiToKanaMapping.forEach { (old, new) -> result = result.replace(old, new) }
         result = result.replace("n", "ん")
         return result
     }
+}
+
+fun main() {
+    println(RomajiConversion.romajiToKana("atonannkakattenikutoutennhairuna", false))
 }
