@@ -10,9 +10,9 @@ object RomajiTable {
         "o" to "お",
 
         "la" to "ぁ", "xa" to "ぁ",
-        "li" to "ぃ", "xi" to "ぃ",
+        "li" to "ぃ", "xi" to "ぃ", "lyi" to "ぃ", "xyi" to "ぃ",
         "lu" to "ぅ", "xu" to "ぅ",
-        "le" to "ぇ", "xe" to "ぇ",
+        "le" to "ぇ", "xe" to "ぇ", "lye" to "ぇ", "xye" to "ぇ",
         "lo" to "ぉ", "xo" to "o",
 
         "wha" to "うぁ",
@@ -83,11 +83,11 @@ object RomajiTable {
         "sye" to "しぇ",
         "syo" to "しょ", "sho" to "しょ",
 
-        "jya" to "じゃ", "ja" to "じゃ",
-        "jyi" to "じぃ",
-        "jyu" to "じゅ", "ju" to "じゅ",
-        "jye" to "じぇ", "je" to "じぇ",
-        "jyo" to "じょ", "jo" to "じょ",
+        "jya" to "じゃ", "ja" to "じゃ", "zya" to "じゃ",
+        "jyi" to "じぃ", "zyi" to "じぃ",
+        "jyu" to "じゅ", "ju" to "じゅ", "zyu" to "じゅ",
+        "jye" to "じぇ", "je" to "じぇ", "zye" to "じぇ",
+        "jyo" to "じょ", "jo" to "じょ", "zyo" to "じょ",
 
         // た行
         "ta" to "た",
@@ -95,7 +95,7 @@ object RomajiTable {
         "tu" to "つ", "tsu" to "つ",
         "te" to "て",
         "to" to "と",
-        "ltu" to "っ", "xtu" to "っ", "xtsu" to "っ",
+        "ltu" to "っ", "xtu" to "っ","ltsu" to "っ", "xtsu" to "っ",
 
         "da" to "だ",
         "di" to "ぢ",
@@ -235,6 +235,7 @@ object RomajiTable {
 
         "wa" to "わ",
         "wo" to "を",
+        "n" to "ん",
 
         "xwa" to "ゎ",
 

@@ -12,6 +12,14 @@ repositories {
     mavenCentral()
 }
 
+dependencies {
+    testImplementation(kotlin("test"))
+    testImplementation("com.github.jikyo:romaji:0.0.3")
+}
+
+tasks.test {
+    useJUnitPlatform()
+}
 
 tasks.withType<KotlinCompile> {
     kotlinOptions.jvmTarget = "1.8"
